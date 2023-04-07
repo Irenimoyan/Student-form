@@ -1,0 +1,67 @@
+ body {
+        font-family: Calibri, Helvetica, sans-serif;
+        background-color: transparent;
+    }
+
+    .container {
+        padding: 50px;
+        width: 50%;
+        justify-content: center;
+        margin-left: 50vh;
+        margin: 50px 10% 70px 20%;
+        border-radius: 20px;
+        background-color: lavender;
+        border: 1px solid aquamarine;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),-5px -5px 15px rgba(0, 0, 0, 0.2);
+        margin-top: 10%;
+    }
+    h1{
+        text-align: center;
+    }
+
+    input[type=text],
+    input[type=password],
+    textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: orange;
+        outline: none;
+    }
+
+    div {
+        padding: 10px 0;
+    }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    .registerbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+    .address{
+        border: transparent;
+        border-bottom: 1px solid blue;
+    }
